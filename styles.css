@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-image: url('media/2021-happy-new-years-clock-260nw-1672924738.jpg');
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+h2 ,h3{
+    
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    justify-content: center;
+    line-height: 1;
+
+}
+.countdown-container{ 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    color: black;
+    font-size: 1.3Srem;
+}
