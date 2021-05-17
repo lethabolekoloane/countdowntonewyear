@@ -1,4 +1,4 @@
-const newYears = '1 jan 2021'
+const newYears = '1 september 2021'
 const daysE1 = document.getElementById('days');
 const hoursE1 = document.getElementById('hours');
 const minsE1 = document.getElementById('mins');
